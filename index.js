@@ -15,10 +15,10 @@ app.get("/",(res,req)=>{
 });
 
 /**
- * Route : /users
- * Method : GET
- * Description : Get all the users info 
- * Access : Public
+ * Route : /users,
+ * Method : GET,
+ * Description : Get all the users info,
+ * Access : Public,
  * Parameter : None
  */
 
