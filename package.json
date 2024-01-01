@@ -1,0 +1,23 @@
+{
+  "name": "library-management",
+  "version": "1.0.0",
+  "description": "Library System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "nodemn": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaibhav-Yerkar/Book-Rec_Management.git"
+  },
+  "author": "vaibhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaibhav-Yerkar/Book-Rec_Management/issues"
+  },
+  "homepage": "https://github.com/Vaibhav-Yerkar/Book-Rec_Management#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
