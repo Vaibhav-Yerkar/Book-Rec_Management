@@ -148,7 +148,7 @@ router.get('/subscription/:id',(req,res)=>{
             message: "User Not Found !!"
         });
     }
-    const getDateInDays = (data = " ")=>{
+    const getDateInDays = (data = "")=>{
         let date;
         if(data === ""){
             date = new Date();
@@ -170,7 +170,7 @@ router.get('/subscription/:id',(req,res)=>{
     };
 
     let returnDate = getDateInDays(user.returnDate);
-    let currentDate = getDateInDays(new Date());
+    let currentDate = getDateInDays();
     let subscriptionDate = getDateInDays(user.subscriptionDate);
     let subExpirationDate = subscriptionType(subscriptionDate);
 
